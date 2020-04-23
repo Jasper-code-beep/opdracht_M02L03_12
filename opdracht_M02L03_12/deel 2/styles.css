@@ -1,0 +1,42 @@
+.center {
+  display: block;
+  margin: auto;
+}
+
+.block {
+  height: 200px;
+  width: 200px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: blueviolet;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.block__circle {
+  width: 100px;
+  height: 100px;
+  background-color: #f7e928;
+  border-radius: 50%;
+}
+
+.block--invert {
+  background-color: #f7e928;
+}
+
+.block__circle--invert {
+  background-color: blueviolet;
+}
+/*# sourceMappingURL=styles.css.map */

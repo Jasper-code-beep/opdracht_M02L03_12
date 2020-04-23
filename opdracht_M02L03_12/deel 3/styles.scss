@@ -1,0 +1,46 @@
+@mixin square {
+    background-color: rgb(247, 233, 40);
+    
+}
+
+@mixin round { 
+    background-color: blueviolet;
+    
+}
+
+.center {
+    display: block;
+    margin: auto;
+}
+
+.block {
+    height: 200px;
+    width: 200px;
+    box-sizing: border-box;
+    background-color: blueviolet;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.block__circle {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(247, 233, 40);
+    border-radius: 50%;
+ 
+}
+
+.block--invert {
+    @include quare();
+
+
+}
+
+.block__circle--invert { 
+    @include round();
+
+}
